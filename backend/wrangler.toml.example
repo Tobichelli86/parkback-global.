@@ -1,0 +1,12 @@
+name = "parkback-billing"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+[vars]
+FRONTEND_ORIGIN = "https://tobichelli86.github.io"
+PRICE_PREMIUM = "price_1UaJjq98nYoktmkRGqdlz8Kb"
+PRICE_BUSINESS = "price_1UaJju98nYoktmkR2kOOvFyE"
+# Important: FRONTEND_ORIGIN must be an exact Origin (scheme + host, NO path).
+# Set SUPABASE_URL and SUPABASE_ANON_KEY in vars or as secrets.
+# Secrets via wrangler secret put: STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET,
+# SUPABASE_SERVICE_ROLE_KEY.
